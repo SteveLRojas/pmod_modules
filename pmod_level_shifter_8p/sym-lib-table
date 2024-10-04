@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "ME2108A")(type "Legacy")(uri "${KIPRJMOD}/ME2108A.lib")(options "")(descr ""))
+  (lib (name "pmod")(type "KiCad")(uri "${KIPRJMOD}/pmod.kicad_sym")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "${KIPRJMOD}/SamacSys_Parts.lib")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "pmod-conn_6x2")(type "KiCad")(uri "${KIPRJMOD}/pmod-conn_6x2.pretty")(options "")(descr ""))
+)

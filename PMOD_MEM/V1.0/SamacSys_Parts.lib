@@ -1,0 +1,190 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model W25Q16JVSNIQ
+#/703325/348999/2.49/8/3/Integrated Circuit
+DEF W25Q16JVSNIQ IC 0 30 Y Y 1 F N
+F0 "IC" 2050 300 50 H V L CNN
+F1 "W25Q16JVSNIQ" 2050 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 2050 100 50 H I L CNN
+F3 "http://www.winbond.com/resource-files/w25q16jv%20spi%20revg%2003222018%20plus.pdf" 2050 0 50 H I L CNN
+F4 "NOR Flash spiFlash, 3V, 16M-bit, 4Kb Uniform Sector" 2050 -100 50 H I L CNN "Description"
+F5 "1.75" 2050 -200 50 H I L CNN "Height"
+F6 "Winbond" 2050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "W25Q16JVSNIQ" 2050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "454-W25Q16JVSNIQ" 2050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q16JVSNIQ?qs=qSfuJ%252Bfl%2Fd5tzEnNt99V4A%3D%3D" 2050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "W25Q16JVSNIQ" 2050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/w25q16jvsniq/winbond-electronics?region=nac" 2050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 P
+X DO_(IO1) 2 0 -100 200 R 50 50 0 0 P
+X ~WP_(IO2) 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 2200 0 200 L 50 50 0 0 P
+X ~HOLD_OR_~RESET_(IO3) 7 2200 -100 200 L 50 50 0 0 P
+X CLK 6 2200 -200 200 L 50 50 0 0 P
+X DI_(IO0) 5 2200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2000 100 2000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SS24-TP
+#/1214592/348999/2.49/2/3/Schottky Diode
+DEF SS24-TP D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "SS24-TP" 500 250 50 H V L CNN
+F2 "DIOM5427X315N" 500 150 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SS24-TP.pdf" 500 50 50 H I L CNN
+F4 "Diode Schottky 40V 2A 2-Pin SMA T/R" 500 -50 50 H I L CNN "Description"
+F5 "3.15" 500 -150 50 H I L CNN "Height"
+F6 "833-SS24-TP" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=833-SS24-TP" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Micro Commercial Components (MCC)" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "SS24-TP" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model VLS5045EX-330M
+#/762063/348999/2.49/2/2/Inductor
+DEF VLS5045EX-330M L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "VLS5045EX-330M" 650 150 50 H V L CNN
+F2 "VLS5045EX330M" 650 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf" 650 -50 50 H I L CNN
+F4 "Wirewound Inductor 33uH 1.3A 240 mOhm TDK VLS-EX Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 33 uH +/-20% Wire-Wound 1.3A Idc" 650 -150 50 H I L CNN "Description"
+F5 "4" 650 -250 50 H I L CNN "Height"
+F6 "810-VLS5045EX-330M" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/VLS5045EX-330M?qs=oF%2FSscNnLpCx3nBgUD0eJQ%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "VLS5045EX-330M" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RAHHD19TR
+#/13690727/348999/2.49/23/3/Connector
+DEF RAHHD19TR J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "RAHHD19TR" 850 200 50 H V L CNN
+F2 "RAHHD19TR" 850 100 50 H I L CNN
+F3 "https://www.switchcraft.com/Drawings/RAHHD19TR_CD.pdf" 850 0 50 H I L CNN
+F4 "HDMI, Displayport & DVI Connectors HDMI Type A Rcpt Horizontal SMT" 850 -100 50 H I L CNN "Description"
+F5 "6.68" 850 -200 50 H I L CNN "Height"
+F6 "502-RAHHD19TR" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Switchcraft/RAHHD19TR?qs=eP2BKZSCXI4eVw73CI8QnQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Switchcraft" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RAHHD19TR" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+X 10 10 0 -900 200 R 50 50 0 0 P
+X 11 11 0 -1000 200 R 50 50 0 0 P
+X 12 12 0 -1100 200 R 50 50 0 0 P
+X 13 13 1000 0 200 L 50 50 0 0 P
+X 14 14 1000 -100 200 L 50 50 0 0 P
+X 15 15 1000 -200 200 L 50 50 0 0 P
+X 16 16 1000 -300 200 L 50 50 0 0 P
+X 17 17 1000 -400 200 L 50 50 0 0 P
+X 18 18 1000 -500 200 L 50 50 0 0 P
+X 19 19 1000 -600 200 L 50 50 0 0 P
+X MH1 MH1 1000 -700 200 L 50 50 0 0 P
+X MH2 MH2 1000 -800 200 L 50 50 0 0 P
+X MH3 MH3 1000 -900 200 L 50 50 0 0 P
+X MH4 MH4 1000 -1000 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -1200 200 -1200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TPD12S016PWR
+#/252904/348999/2.49/24/3/Integrated Circuit
+DEF TPD12S016PWR IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "TPD12S016PWR" 1150 200 50 H V L CNN
+F2 "SOP65P640X120-24N" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tpd12s016.pdf" 1150 0 50 H I L CNN
+F4 "Texas Instruments,TPD12S016PWR,IC,HDMI TPD12S016PWR, HDMI Interface 12-channel HDMI 4.5 " 1150 -100 50 H I L CNN "Description"
+F5 "1.2" 1150 -200 50 H I L CNN "Height"
+F6 "595-TPD12S016PWR" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD12S016PWR?qs=Brs2XCuyt3duqIFAdfG0Pg%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPD12S016PWR" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CEC_A 1 0 0 200 R 50 50 0 0 P
+X SCL_A 2 0 -100 200 R 50 50 0 0 P
+X SDA_A 3 0 -200 200 R 50 50 0 0 P
+X HPD_A- 4 0 -300 200 R 50 50 0 0 P
+X LS_OE 5 0 -400 200 R 50 50 0 0 P
+X GND_1 6 0 -500 200 R 50 50 0 0 W
+X CEC_B 7 0 -600 200 R 50 50 0 0 P
+X SCL_B 8 0 -700 200 R 50 50 0 0 P
+X SDA_B 9 0 -800 200 R 50 50 0 0 P
+X HPD_B- 10 0 -900 200 R 50 50 0 0 P
+X VCC5V 11 0 -1000 200 R 50 50 0 0 W
+X CT_HPD 12 0 -1100 200 R 50 50 0 0 P
+X VCCA 24 1300 0 200 L 50 50 0 0 W
+X D2+ 23 1300 -100 200 L 50 50 0 0 P
+X D2- 22 1300 -200 200 L 50 50 0 0 P
+X D1+ 21 1300 -300 200 L 50 50 0 0 P
+X D1- 20 1300 -400 200 L 50 50 0 0 P
+X GND_3 19 1300 -500 200 L 50 50 0 0 W
+X D0+ 18 1300 -600 200 L 50 50 0 0 P
+X D0- 17 1300 -700 200 L 50 50 0 0 P
+X CLK+ 16 1300 -800 200 L 50 50 0 0 I
+X CLK- 15 1300 -900 200 L 50 50 0 0 I
+X GND_2 14 1300 -1000 200 L 50 50 0 0 W
+X 5V_OUT 13 1300 -1100 200 L 50 50 0 0 O
+P 5 0 1 6 200 100 1100 100 1100 -1200 200 -1200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

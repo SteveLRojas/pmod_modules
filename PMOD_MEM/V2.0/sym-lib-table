@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "pmod")(type "KiCad")(uri "${KIPRJMOD}/pmod.kicad_sym")(options "")(descr ""))
+  (lib (name "Signetics")(type "KiCad")(uri "${KIPRJMOD}/Signetics.kicad_sym")(options "")(descr ""))
+)
