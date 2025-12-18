@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "MSD-4-A")(type "KiCad")(uri "${KIPRJMOD}/MSD-4-A.kicad_sym")(options "")(descr ""))
+  (lib (name "Signetics")(type "KiCad")(uri "${KIPRJMOD}/Signetics.kicad_sym")(options "")(descr ""))
+  (lib (name "pmod")(type "KiCad")(uri "${KIPRJMOD}/pmod.kicad_sym")(options "")(descr ""))
+)

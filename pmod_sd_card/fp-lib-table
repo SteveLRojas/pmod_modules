@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "MSD-4-A")(type "KiCad")(uri "${KIPRJMOD}/MSD-4-A.pretty")(options "")(descr ""))
+  (lib (name "Signetics")(type "KiCad")(uri "${KIPRJMOD}/Signetics.pretty")(options "")(descr ""))
+  (lib (name "pmod-conn_6x2")(type "KiCad")(uri "${KIPRJMOD}/pmod-conn_6x2.pretty")(options "")(descr ""))
+)
